@@ -1,1 +1,28 @@
+Microsoft Windows [Version 10.0.19045.3208]
+(c) Microsoft Corporation. All rights reserved.
 
+C:\Users\luckyland7\OneDrive\ドキュメント\lesson\git tutorial>cd C:\Users\luckyland7\OneDrive\ドキュメン
+ト\sample.php
+
+C:\Users\luckyland7\OneDrive\ドキュメント\sample.php>mkdir git_challenge
+
+C:\Users\luckyland7\OneDrive\ドキュメント\sample.php>git init
+Initialized empty Git repository in C:/Users/luckyland7/OneDrive/ドキュメント/sample.php/.git/
+
+C:\Users\luckyland7\OneDrive\ドキュメント\sample.php>cd C:\Users\luckyland7\OneDrive\ドキュメント\sample.php\git_challenge\hello_world.txt
+
+C:\Users\luckyland7\OneDrive\ドキュメント\sample.php\git_challenge\hello_world.txt>echo "Hello,world!" >> hello_world.txt
+
+C:\Users\luckyland7\OneDrive\ドキュメント\sample.php\git_challenge\hello_world.txt>echo "こんにちは、世 
+界！" >> hello_world.txt
+
+C:\Users\luckyland7\OneDrive\ドキュメント\sample.php\git_challenge\hello_world.txt>git add hello_world.txt
+
+C:\Users\luckyland7\OneDrive\ドキュメント\sample.php\git_challenge\hello_world.txt>git commit -m "最初の
+コミット"
+[main (root-commit) 6157dff] 最初のコミット
+ 1 file changed, 2 insertions(+)
+ create mode 100644 git_challenge/hello_world.txt/hello_world.txt
+
+C:\Users\luckyland7\OneDrive\ドキュメント\sample.php\git_challenge\hello_world.txt>git log --oneline
+6157dff (HEAD -> main) 最初のコミット
